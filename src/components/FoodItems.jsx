@@ -1,4 +1,4 @@
-import foodData from "../data/foodData.js";
+import foodData from "../data/foodData";
 import FoodItem from "./FoodItem.jsx";
 import toast, { Toaster } from "react-hot-toast";
 import { useSelector } from "react-redux";
