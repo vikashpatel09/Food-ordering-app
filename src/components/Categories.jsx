@@ -33,11 +33,11 @@ const Categories = () => {
         >
           All
         </button>
-        {categories.map((category, index) => {
+        {categories.map((category) => {
           return (
             <button
               onClick={() => dispatch(setCategory(category))}
-              key={index}
+              key={category}
               className={`px-3 py-2 bg-gray-200 font-bold rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300 ease-in-out ${selectedCategory === category && "bg-orange-500 text-white"
                 } `}
             >
